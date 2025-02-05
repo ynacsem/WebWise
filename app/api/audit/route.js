@@ -15,7 +15,7 @@ export async function GET(req) {
     return Response.json({ error: "Domain not supported for analysis" }, { status: 400 });
   }
 
-  const apiKey = process.env.NEXT_PUBLIC_PAGESPEED_API_KEY;
+  const apiKey = "AIzaSyC9ioJa5Udj7L6X_NSsHVJvlrteAVNiKr4";
   if (!apiKey) {
     return Response.json({ error: "API key not configured" }, { status: 500 });
   }
