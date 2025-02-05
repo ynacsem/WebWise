@@ -20,6 +20,10 @@ export default function Nav() {
       window.removeEventListener("scroll", handleScroll)
     }
   }, [])
+  useEffect(()=>{
+    console.log("API Key in Vercel:", process.env.PAGESPEED_API_KEY);
+
+  },[])
 
   return (
     <div
