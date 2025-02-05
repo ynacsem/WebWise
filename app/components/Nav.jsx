@@ -21,7 +21,7 @@ export default function Nav() {
     }
   }, [])
   useEffect(()=>{
-    console.log("API Key in Vercel:", process.env.PAGESPEED_API_KEY);
+    console.log("API Key in Vercel:", process.env.NEXT_PUBLIC_PAGESPEED_API_KEY);
 
   },[])
 
